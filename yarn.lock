@@ -297,6 +297,20 @@ ajv@^6.1.0, ajv@^6.5.5:
     json-schema-traverse "^0.4.1"
     uri-js "^4.2.2"
 
+ami.js@^0.0.22:
+  version "0.0.22"
+  resolved "https://registry.yarnpkg.com/ami.js/-/ami.js-0.0.22.tgz#902ca1777b89969d09226e5d74c9a7b4c9ce4cf6"
+  integrity sha1-kCyhd3uJlp0JIm5ddMmntMnOTPY=
+  dependencies:
+    dicom-parser "1.7.3"
+    image-JPEG2000 OHIF/image-JPEG2000#master
+    jpeg-lossless-decoder-js "1.2.3"
+    math-float32-to-binary-string "^1.0.0"
+    nifti-reader-js v0.5.3
+    nrrd-js "^0.2.1"
+    pako "1.0.1"
+    three "0.87.0"
+
 amqplib@^0.5.2:
   version "0.5.3"
   resolved "https://registry.yarnpkg.com/amqplib/-/amqplib-0.5.3.tgz#7ccfc85d12ee7cd3c6dc861bb07f0648ec3d7193"
@@ -2497,6 +2511,11 @@ di@^0.0.1:
   resolved "https://registry.yarnpkg.com/di/-/di-0.0.1.tgz#806649326ceaa7caa3306d75d985ea2748ba913c"
   integrity sha1-gGZJMmzqp8qjMG112YXqJ0i6kTw=
 
+dicom-parser@1.7.3:
+  version "1.7.3"
+  resolved "https://registry.yarnpkg.com/dicom-parser/-/dicom-parser-1.7.3.tgz#64a6af5f11c840ed9544d212c60253aa43bad26c"
+  integrity sha1-ZKavXxHIQO2VRNISxgJTqkO60mw=
+
 dicom-parser@1.8.1:
   version "1.8.1"
   resolved "https://registry.yarnpkg.com/dicom-parser/-/dicom-parser-1.8.1.tgz#5baef740f7ae2911921f3e4109b89c936b8b3273"
@@ -3966,6 +3985,10 @@ ignore-walk@^3.0.1:
 image-JPEG2000@ReflexionMed/image-JPEG2000#master:
   version "0.3.1"
   resolved "https://codeload.github.com/ReflexionMed/image-JPEG2000/tar.gz/77ea3cb026de90629c2d013bda46e82a36edaeb6"
+
+"image-JPEG2000@github:ohif/image-JPEG2000#master":
+  version "0.3.1"
+  resolved "https://codeload.github.com/ohif/image-JPEG2000/tar.gz/ed628f6ef0c505377179ce5c952cd7265c87e065"
 
 import-fresh@^2.0.0:
   version "2.0.0"
@@ -7883,6 +7906,11 @@ text-encoding@0.6.4:
   version "0.6.4"
   resolved "https://registry.yarnpkg.com/text-encoding/-/text-encoding-0.6.4.tgz#e399a982257a276dae428bb92845cb71bdc26d19"
   integrity sha1-45mpgiV6J22uQou5KEXLcb3CbRk=
+
+three@0.87.0:
+  version "0.87.0"
+  resolved "https://registry.yarnpkg.com/three/-/three-0.87.0.tgz#e38570daccafac86e7cf55718d00588a1a70b9a4"
+  integrity sha1-44Vw2syvrIbnz1VxjQBYihpwuaQ=
 
 three@latest:
   version "0.99.0"

@@ -286,14 +286,14 @@ function render() {
     data.forEach(function(object, key) {
       object.materialFront.clippingPlanes = [clipPlane1];
       object.materialBack.clippingPlanes = [clipPlane1];
-      r1.renderer.render(object.scene, r1.camera, redTextureTarget, true);
+      /*r1.renderer.render(object.scene, r1.camera, redTextureTarget, true);
       r1.renderer.clearDepth();
       redContourHelper.contourWidth = object.selected ? 3 : 2;
       redContourHelper.contourOpacity = object.selected ? 1 : 0.8;
       r1.renderer.render(redContourScene, r1.camera);
-      r1.renderer.clearDepth();
+      r1.renderer.clearDepth();*/
     });
-
+    r1.renderer.render(sceneClip, r1.camera);
     // localizer
     r1.renderer.clearDepth();
     r1.renderer.render(r1.localizerScene, r1.camera);
@@ -406,6 +406,10 @@ window.onload = function() {
       redContourHelper.textureToFilter = redTextureTarget.texture;
       redContourScene = new THREE.Scene();
       redContourScene.add(redContourHelper);
+
+      //red slide
+      //initHelpersStack(r1, stack);	//Mohan Added
+      //r0.scene.add(r1.scene);
 
       // yellow slice
       initHelpersStack(r2, stack);

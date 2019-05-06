@@ -55,6 +55,7 @@
   "sideEffects": false,
   "dependencies": {
     "OpenJPEG.js": "joedrago/openjpeg#master",
+    "ami.js": "^0.0.22",
     "dicom-parser": "1.8.1",
     "image-JPEG2000": "ReflexionMed/image-JPEG2000#master",
     "jpeg-lossless-decoder-js": "1.2.3",
